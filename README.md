@@ -8,6 +8,7 @@ example of output:
 
 Notes: 
 - the polar axis are offset 30 degrees (0, 30, 60, 90, ...)
+- the polar axis is oriented to 0 degrees UP
 - uses scipy.interpolate > make_interp_spline to smooth out the transition between each radial point (looks nice)
 - automatically scales the plot size AND labels based on 1.2 times the largest radial point
 
