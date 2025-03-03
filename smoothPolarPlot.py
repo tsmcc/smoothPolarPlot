@@ -38,11 +38,11 @@ def create_polar_plot(angles, radii_sets, colors):
     # create the plot
     plt.show()
 
-# define the number of points (30 degree increments)
+# define the number of points (30 degree increments) and angles
 num_points = 13
-
-# Example input angles and radial points for three sets
 angles = np.deg2rad([0, 30, 60, 90, 120, 150, 180, 210, 240, 270, 300, 330, 360])
+
+# radial points for three sets (ref above angles)
 radii_set1 = [0, 51, 84, 101, 84, 52, 0, 51, 84, 101, 84, 52, 0]
 radii_set2 = [0, 24, 44, 51, 44, 24, 0, 24, 44, 51, 44, 24, 0]
 radii_set3 = [0, 29, 65, 83, 70, 28, 0, 29, 65, 83, 70, 28, 0]
